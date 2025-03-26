@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="Formulaire.html" method="post">
+        <ul>
+            <li>
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" placeholder="Nom">
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" placeholder="Prénom">
+            </li>
+            <li>
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" id="age" min="18" max="99" />
+            </li>
+            <li>
+                <label> Sex</label>
+                <input type="radio" id=male name="gender" value="male" checked>
+                <label for="male">M.</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Mme</label>
+            </li>
+            <li>
+                <label for="email">Adresse Mail</label>
+                <input type="texte" id="email" name="email" required placeholder="example@domain.com">
+               </li>
+               <li>
+                <label for="postale">Adresse postale</label>
+                <input type="texte" id="postale" name="adresse postale" placeholder="Adresse postale">
+               </li>
+               <li>
+                <label for="codepostale">Code postale</label>
+                <input type="texte" id="codepostale" name="code postale" placeholder="Code postale" maxlength="5">
+               </li>
+               <li>
+                <label for="ville">Ville</label>
+                <input type="texte" id="ville" name="ville" placeholder="Ville">
+               </li>
+               <li>
+                <label for="metier">Métier exercé</label>
+                <select id="metier" name="simple">
+                    <option>Secrétaire</option>
+                    <option>Vendeur/Vendeuse</option>
+                    <option>Agent administratif</option>
+                    <option>Serveur/Serveuse</option>
+                    </select>
+               </li>
+                
+               <li>
+                <label for="nationalite">Nationalité</label>
+                <select id="nationalite" name="nationalite">
+                    <option value="autre">Autre</option>
+                    <option value="fransaise">Frainçaise</option>
+                    <option value="allemande">Allemande</option>
+                    <option value="espagne">Espagnole</option>
+                    <option value="japon">Japonaise</option>
+                </select>
+               </li>
+               <li>
+                <label for="date">Date de naissance</label>
+                <input type="date" id="date" name="date" max="2008-12-31" required/>
+
+               </li>
+              <li>
+                <label for="pays">Pays de naissance</label>
+                <input type="texte" id="pays" name="pays" placeholder="Pays de naissance">
+              </li>
+              <li>
+                <label for="numero social">Numéro de sécurité social</label>
+                <input type="text" id="numero social" placeholder="0000000000000" maxlength="13">
+              </li>
+              <li>
+                <label for="passeport">Numéro du passeport</label>
+                <input type="text" id="passeport" placeholder="0000000000000">
+              </li>
+              <li>
+                <label for="date delivrance">Date de délivrance du passeport</label>
+                <input type="date" id="date delivrance" name="date"/>
+              </li>
+              <li>
+                <label for="date validité">Date de validité du passeport</label>
+                <input type="date" id="date validité" name="date"/>
+              </li>
+        </ul>
+<ul>
+    <button type="submit">Valider</button>
+</ul>
+
+</form>
+</body>
+</html>
